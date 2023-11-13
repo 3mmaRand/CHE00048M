@@ -7,10 +7,7 @@ format: revealjs
 
 ## Who am I?
 
-
-
 ## Overview
-
 
 -   Data Science applications in Biology
 
@@ -18,59 +15,44 @@ format: revealjs
 
 -   60 credit Research Projects in Biology
 
-
-#  Data Science in Biology
+# Data Science in Biology
 
 ## Data Science in Biology
 
 ::: incremental
-
-
 :::
 
-##
+## 
 
 ::: incremental
-
-
 :::
 
-##
+## 
 
 ::: incremental
-
-
 :::
 
-##
+## 
 
 ::: incremental
-
-
 :::
 
-
-##
+## 
 
 ::: incremental
-
-
 :::
 
-#  Bioinformatics Group Project
+# Bioinformatics Group Project
 
-##  Bioinformatics Group Project
+## Bioinformatics Group Project
 
-
--   Module co-ordinator: Dr Antje Kuhrs 
+-   Module co-ordinator: Dr Antje Kuhrs
 
 -   Project Coordinator for Bioinformatics: Dr Daphne Ezer
 
 -   20 credits
 
 -   [Group Project - BIO00069M](https://www.york.ac.uk/students/studying/manage/programmes/module-catalogue/module/BIO00069M/latest)
-
-
 
 ## Module summary
 
@@ -87,17 +69,13 @@ format: revealjs
 
 [Ara-BOX-cis](https://araboxcis.org/) is A G-box regulatory network for a single cell developmental atlas
 
-
 Work together to produce a revised version utilising novel single cell RNA-seq data to identify subsets of the gene network that are relevant at different developmental stages and cell types.
 
+# Research Projects in Biology
 
-#  Research Projects in Biology
-
-##  Research Projects in Biology
+## Research Projects in Biology
 
 ::: incremental
-
-
 :::
 
-##
+## 
