@@ -1,0 +1,103 @@
+---
+title: "Data Science in Biology"
+subtitle: "CHE00048M"
+author: "Emma Rand"
+format: revealjs
+---
+
+## Who am I?
+
+
+
+## Overview
+
+
+-   Data Science applications in Biology
+
+-   Option module: Bioinformatics Group Project
+
+-   60 credit Research Projects in Biology
+
+
+#  Data Science in Biology
+
+## Data Science in Biology
+
+::: incremental
+
+
+:::
+
+##
+
+::: incremental
+
+
+:::
+
+##
+
+::: incremental
+
+
+:::
+
+##
+
+::: incremental
+
+
+:::
+
+
+##
+
+::: incremental
+
+
+:::
+
+#  Bioinformatics Group Project
+
+##  Bioinformatics Group Project
+
+
+-   Module co-ordinator: Dr Antje Kuhrs 
+
+-   Project Coordinator for Bioinformatics: Dr Daphne Ezer
+
+-   20 credits
+
+-   [Group Project - BIO00069M](https://www.york.ac.uk/students/studying/manage/programmes/module-catalogue/module/BIO00069M/latest)
+
+
+
+## Module summary
+
+-   You will carry out a research project in a small team
+
+    -   Some work will be carried out collaboratively with other group members
+    -   while other aspects of the project will be carried out individually
+
+-   Project planning, data assembly and analysis
+
+-   Assessment: 4000W Scientific Report
+
+## The project Ara-BOX-cis v2
+
+[Ara-BOX-cis](https://araboxcis.org/) is A G-box regulatory network for a single cell developmental atlas
+
+
+Work together to produce a revised version utilising novel single cell RNA-seq data to identify subsets of the gene network that are relevant at different developmental stages and cell types.
+
+
+#  Research Projects in Biology
+
+##  Research Projects in Biology
+
+::: incremental
+
+
+:::
+
+##
