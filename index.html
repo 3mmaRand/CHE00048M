@@ -342,45 +342,141 @@ Emma Rand
 <section id="overview" class="slide level2">
 <h2>Overview</h2>
 <ul>
-<li><p>Data Science applications in Biology</p></li>
+<li><p>Data Science in the biosciences</p></li>
 <li><p>Option module: Bioinformatics Group Project</p></li>
 <li><p>60 credit Research Projects in Biology</p></li>
 </ul>
 </section>
 <section>
-<section id="data-science-in-biology" class="title-slide slide level1 center">
-<h1>Data Science in Biology</h1>
+<section id="data-science-in-the-biosciences" class="title-slide slide level1 center">
+<h1>Data Science in the biosciences</h1>
 
 </section>
-<section id="data-science-in-biology-1" class="slide level2">
-<h2>Data Science in Biology</h2>
+<section id="data-science-in-the-biosciences-1" class="slide level2">
+<h2>Data Science in the biosciences</h2>
+<p>Data Science or Bioinformatics?</p>
 <div>
+<ul>
+<li class="fragment"><p>More or less interchangeable</p></li>
+<li class="fragment"><p>Data Science is a broader term</p></li>
+<li class="fragment"><p>Bioinformatics more of a focus on sequencing data</p></li>
+<li class="fragment"><p>because that’s what came first!</p></li>
+</ul>
+</div>
+</section>
+<section id="data-science-in-the-biosciences-2" class="slide level2">
+<h2>Data Science in the biosciences</h2>
+<ul>
+<li><p>High-throughput sequencing</p></li>
+<li><p>Central Dogma: DNA makes RNA, and RNA makes protein</p></li>
+</ul>
 
+<img data-src="images/central-dogma.png" alt="DNA is transcribed to RNA which is translated to proteins" class="r-stretch quarto-figure-center"><p class="caption">The Central Dogma</p><ul>
+<li>We can sequence DNA, RNA and protein in bulk, single cell and spatially</li>
+</ul>
+</section>
+<section id="data-science-in-the-biosciences-3" class="slide level2">
+<h2>Data Science in the biosciences</h2>
+<p>Typical omics workflow</p>
+<div>
+<ul>
+<li class="fragment"><p>DNA or RNA is extracted from samples</p></li>
+<li class="fragment"><p>It is chopped up into ‘small’ pieces and sequenced</p></li>
+<li class="fragment"><p>Sequencing is not perfect - some based are “miscalled”</p></li>
+<li class="fragment"><p>The data are files of “reads” i.e., sequences with a quality score</p></li>
+<li class="fragment"><p>Text files e.g., FASTQ</p></li>
+</ul>
+</div>
+</section>
+<section id="data-science-in-the-biosciences-4" class="slide level2">
+<h2>Data Science in the biosciences</h2>
+<p><a href="https://en.wikipedia.org/wiki/FASTQ_format">FASTQ format</a></p>
+</section>
+<section id="data-science-in-the-biosciences-5" class="slide level2">
+<h2>Data Science in the biosciences</h2>
+<ul>
+<li><p>Technologies</p></li>
+<li><p>long reads or short reads</p></li>
+</ul>
+</section>
+<section id="sequencing-technologies" class="slide level2">
+<h2>Sequencing Technologies</h2>
+<div style="font-size: 70%;">
+<table>
+<colgroup>
+<col style="width: 5%">
+<col style="width: 7%">
+<col style="width: 17%">
+<col style="width: 6%">
+<col style="width: 28%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Platform</th>
+<th>Generation</th>
+<th>Read length</th>
+<th>Sequence Accuracy</th>
+<th>Other advantages</th>
+<th>Other disadvantages</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Illumina</td>
+<td>second-generation NGS</td>
+<td>Short 150 - 300 bp</td>
+<td>high</td>
+<td>Relatively cheap, Can sequence fragmented DNA</td>
+<td>Not suitable for sequences with many repetitive elements, methylation signatures, Relatively slow</td>
+</tr>
+<tr class="even">
+<td>PacBio</td>
+<td>third-generation NGS</td>
+<td>Long 13,000 - 20,000 bp with a max of 300,000</td>
+<td>low</td>
+<td>Easier library preparation, suitable for methylation signatures, Quick</td>
+<td>Relatively expensive</td>
+</tr>
+<tr class="odd">
+<td>Oxford Nanopore</td>
+<td>third-generation NGS</td>
+<td>Long 10,000 - 30,000 bp with a max of 2.3 million</td>
+<td>low</td>
+<td>portability, Easier library preparation, Quick, suitable for methylation signatures</td>
+<td></td>
+</tr>
+</tbody>
+</table>
 </div>
 </section>
 <section id="section" class="slide level2">
 <h2></h2>
 <div>
-
+<ul>
+<li class="fragment"><p>Quality control of raw reads: trimming and filtering</p></li>
+<li class="fragment"><p>Assembly de novo or align to a reference</p></li>
+<li class="fragment"><p>Counts of reads to measure expression/abundance</p></li>
+<li class="fragment"><p>Normalisation of counts</p></li>
+<li class="fragment"><p>Data visualisation: dimension reduction, clustering</p></li>
+<li class="fragment"><p>Statistical analysis: differential expression/abundance, gene set enrichment</p></li>
+<li class="fragment"><p>Data visualisation: Volcano plots, heatmaps, networks</p></li>
+</ul>
 </div>
 </section>
-<section id="section-1" class="slide level2">
-<h2></h2>
-<div>
-
-</div>
+<section id="data-science-in-the-biosciences-6" class="slide level2">
+<h2>Data Science in the biosciences</h2>
+<ul>
+<li><p>Imaging</p></li>
+<li><p>Microscopy including live cyte, MRI, CT, PET, Satellite</p></li>
+<li><p>Mechanistic understanding, Monitoring, diagnosis (classification), prognosis (prediction)</p></li>
+</ul>
 </section>
-<section id="section-2" class="slide level2">
-<h2></h2>
-<div>
-
-</div>
-</section>
-<section id="section-3" class="slide level2">
-<h2></h2>
-<div>
-
-</div>
+<section id="data-science-in-the-biosciences-7" class="slide level2">
+<h2>Data Science in the biosciences</h2>
+<ul>
+<li><a href="https://www.kaggle.com/">Kaggle</a></li>
+</ul>
 </section></section>
 <section>
 <section id="bioinformatics-group-project" class="title-slide slide level1 center">
@@ -420,11 +516,41 @@ Emma Rand
 </section>
 <section id="research-projects-in-biology-1" class="slide level2">
 <h2>Research Projects in Biology</h2>
-<div>
-
+<div style="font-size: 70%;">
+<table>
+<tbody>
+<tr class="odd">
+<td><p><a href="https://www.york.ac.uk/biology/research/ecology-evolution/kanchon-dasmahapatra/">Kanchon Dasmahapatra</a></p>
+<p>Genomics for understanding speciation</p>
+<p><img data-src="images/Kanchon%20Dasmahapatra.png"></p></td>
+<td><p><a href="https://www.york.ac.uk/biology/research/biochemistry-biophysics/gavin-h-thomas/">Gavin H Thomas</a></p>
+<p>How human pathogens use the host-derived molecule sialic acid</p>
+<p><img data-src="images/G_Thomas.jpg"></p></td>
+<td><p><a href="https://www.york.ac.uk/biology/research/bioinformatics-biosystems/katherine-denby/">Katherine Denby</a></p>
+<p>Plant-pathogen interactions using high-throughput sequencing data</p>
+<p>&nbsp;<img data-src="images/Katherine%20Denby218x218.jpg"></p></td>
+</tr>
+<tr class="even">
+<td><p><a href="https://www.york.ac.uk/biology/our-staff/ezerdaphne/">Daphne Ezer</a></p>
+<p>Complex experimental designs in sequence data</p>
+<p><img data-src="images/daphne%20ezer.jpg"></p></td>
+<td><p><a href="https://www.york.ac.uk/biology/our-staff/katie-davis/">Katie E. Davis</a></p>
+<p>Biodiversity change in the fossil record</p>
+<p><img data-src=".png"><img data-src="images/KDavis-218.jpg"></p></td>
+<td><p><a href="https://www.york.ac.uk/biology/research/biochemistry-biophysics/james-chong/">James Chong</a></p>
+<p>Microbiomes in anaerobic digestors</p>
+<p><img data-src="images/james-chong-218x286.jpg"></p></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
 </div>
 </section>
-<section id="section-4" class="slide level2">
+<section id="section-1" class="slide level2">
 <h2></h2>
 <div class="footer footer-default">
 
