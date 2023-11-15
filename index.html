@@ -338,6 +338,20 @@ Emma Rand
 </section>
 <section id="who-am-i" class="slide level2">
 <h2>Who am I?</h2>
+<ul>
+<li><p>Computational Biologist</p>
+<ul>
+<li>computational reproducibility</li>
+<li>omics: stem cells, cancer, development, anaerobic digestion</li>
+<li>text analysis to understand scientific literature</li>
+</ul></li>
+<li><p>Director of <a href="https://cloud-span.york.ac.uk/">Cloud-SPAN</a> which trains researchers run ’omics analyses on cloud-based HPC</p></li>
+<li><p>MSc Bioinformatics Programme lead</p></li>
+<li><p><a href="https://forwards.github.io/">RForwards</a>, member of core team and teaching lead</p></li>
+</ul>
+<div style="font-size: 50%;">
+<p>ORCID: <a href="https://orcid.org/0000-0002-1358-8275">0000-0002-1358-8275</a> GitHub: <a href="https://github.com/3mmaRand">3mmaRand</a> twitter: <a href="https://twitter.com/er13_r"><span class="citation" data-cites="er13_r">@er13_r</span></a> Mastodon: <a href="https://mastodon.social/deck/@3mma"><span class="citation" data-cites="3mma">@3mma</span><span class="citation" data-cites="mastodon.social">@mastodon.social</span></a></p>
+</div>
 </section>
 <section id="overview" class="slide level2">
 <h2>Overview</h2>
@@ -384,74 +398,52 @@ Emma Rand
 <li class="fragment"><p>It is chopped up into ‘small’ pieces and sequenced</p></li>
 <li class="fragment"><p>Sequencing is not perfect - some based are “miscalled”</p></li>
 <li class="fragment"><p>The data are files of “reads” i.e., sequences with a quality score</p></li>
-<li class="fragment"><p>Text files e.g., FASTQ</p></li>
+<li class="fragment"><p>Text files e.g., <a href="https://en.wikipedia.org/wiki/FASTQ_format">FASTQ format</a></p></li>
 </ul>
 </div>
 </section>
 <section id="data-science-in-the-biosciences-4" class="slide level2">
 <h2>Data Science in the biosciences</h2>
-<p><a href="https://en.wikipedia.org/wiki/FASTQ_format">FASTQ format</a></p>
-</section>
-<section id="data-science-in-the-biosciences-5" class="slide level2">
-<h2>Data Science in the biosciences</h2>
+<p>Technologies</p>
 <ul>
-<li><p>Technologies</p></li>
-<li><p>long reads or short reads</p></li>
+<li>long reads or short reads</li>
 </ul>
-</section>
-<section id="sequencing-technologies" class="slide level2">
-<h2>Sequencing Technologies</h2>
 <div style="font-size: 70%;">
-<table>
+<table style="width:99%;">
 <colgroup>
-<col style="width: 5%">
-<col style="width: 7%">
-<col style="width: 17%">
-<col style="width: 6%">
-<col style="width: 28%">
-<col style="width: 33%">
+<col style="width: 19%">
+<col style="width: 57%">
+<col style="width: 21%">
 </colgroup>
 <thead>
 <tr class="header">
 <th>Platform</th>
-<th>Generation</th>
 <th>Read length</th>
 <th>Sequence Accuracy</th>
-<th>Other advantages</th>
-<th>Other disadvantages</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>Illumina</td>
-<td>second-generation NGS</td>
 <td>Short 150 - 300 bp</td>
 <td>high</td>
-<td>Relatively cheap, Can sequence fragmented DNA</td>
-<td>Not suitable for sequences with many repetitive elements, methylation signatures, Relatively slow</td>
 </tr>
 <tr class="even">
 <td>PacBio</td>
-<td>third-generation NGS</td>
 <td>Long 13,000 - 20,000 bp with a max of 300,000</td>
 <td>low</td>
-<td>Easier library preparation, suitable for methylation signatures, Quick</td>
-<td>Relatively expensive</td>
 </tr>
 <tr class="odd">
 <td>Oxford Nanopore</td>
-<td>third-generation NGS</td>
 <td>Long 10,000 - 30,000 bp with a max of 2.3 million</td>
 <td>low</td>
-<td>portability, Easier library preparation, Quick, suitable for methylation signatures</td>
-<td></td>
 </tr>
 </tbody>
 </table>
 </div>
 </section>
-<section id="section" class="slide level2">
-<h2></h2>
+<section id="typical-workflow" class="slide level2">
+<h2>Typical workflow</h2>
 <div>
 <ul>
 <li class="fragment"><p>Quality control of raw reads: trimming and filtering</p></li>
@@ -464,12 +456,18 @@ Emma Rand
 </ul>
 </div>
 </section>
-<section id="data-science-in-the-biosciences-6" class="slide level2">
+<section id="data-science-in-the-biosciences-5" class="slide level2">
 <h2>Data Science in the biosciences</h2>
 <ul>
 <li><p>Imaging</p></li>
 <li><p>Microscopy including live cyte, MRI, CT, PET, Satellite</p></li>
 <li><p>Mechanistic understanding, Monitoring, diagnosis (classification), prognosis (prediction)</p></li>
+</ul>
+</section>
+<section id="data-science-in-the-biosciences-6" class="slide level2">
+<h2>Data Science in the biosciences</h2>
+<ul>
+<li>integrating information from a variety omics, imaging and other sources</li>
 </ul>
 </section>
 <section id="data-science-in-the-biosciences-7" class="slide level2">
@@ -492,8 +490,9 @@ Emma Rand
 <li><p><a href="https://www.york.ac.uk/students/studying/manage/programmes/module-catalogue/module/BIO00069M/latest">Group Project - BIO00069M</a></p></li>
 </ul>
 </section>
-<section id="module-summary" class="slide level2">
-<h2>Module summary</h2>
+<section id="bioinformatics-group-project-2" class="slide level2">
+<h2>Bioinformatics Group Project</h2>
+<p>Module summary</p>
 <ul>
 <li><p>You will carry out a research project in a small team</p>
 <ul>
@@ -504,10 +503,21 @@ Emma Rand
 <li><p>Assessment: 4000W Scientific Report</p></li>
 </ul>
 </section>
-<section id="the-project-ara-box-cis-v2" class="slide level2">
-<h2>The project Ara-BOX-cis v2</h2>
+<section id="bioinformatics-group-project-3" class="slide level2">
+<h2>Bioinformatics Group Project</h2>
+<p>The project Ara-BOX-cis v2</p>
 <p><a href="https://araboxcis.org/">Ara-BOX-cis</a> is A G-box regulatory network for a single cell developmental atlas</p>
-<p>Work together to produce a revised version utilising novel single cell RNA-seq data to identify subsets of the gene network that are relevant at different developmental stages and cell types.</p>
+<ul>
+<li><p>Work together to produce a revised version</p></li>
+<li><p>Novel single cell RNA-seq data to identify subsets of the gene network that are relevant at different developmental stages and cell types.</p></li>
+</ul>
+<div style="font-size: 50%;">
+<p>Daphne Ezer, Samuel J.K. Shepherd, Anna Brestovitsky, Patrick Dickinson, Sandra Cortijo, Varodom Charoensawan, Mathew S. Box, Surojit Biswas, Katja E. Jaeger, Philip A. Wigge, The G-Box Transcriptional Regulatory Code in Arabidopsis, Plant Physiology, Volume 175, Issue 2, October 2017, Pages 628–640, <a href="https://doi.org/10.1104/pp.17.01086" class="uri">https://doi.org/10.1104/pp.17.01086</a></p>
+</div>
+</section>
+<section id="bioinformatics-group-project-4" class="slide level2">
+<h2>Bioinformatics Group Project</h2>
+<p><a href="biology-gp-proj.pdf">background</a></p>
 </section></section>
 <section>
 <section id="research-projects-in-biology" class="title-slide slide level1 center">
@@ -516,7 +526,7 @@ Emma Rand
 </section>
 <section id="research-projects-in-biology-1" class="slide level2">
 <h2>Research Projects in Biology</h2>
-<div style="font-size: 70%;">
+<div style="font-size: 50%;">
 <table>
 <tbody>
 <tr class="odd">
@@ -528,30 +538,49 @@ Emma Rand
 <p><img data-src="images/G_Thomas.jpg"></p></td>
 <td><p><a href="https://www.york.ac.uk/biology/research/bioinformatics-biosystems/katherine-denby/">Katherine Denby</a></p>
 <p>Plant-pathogen interactions using high-throughput sequencing data</p>
-<p>&nbsp;<img data-src="images/Katherine%20Denby218x218.jpg"></p></td>
+<p><img data-src="images/Katherine%20Denby218x218.jpg"></p></td>
 </tr>
 <tr class="even">
 <td><p><a href="https://www.york.ac.uk/biology/our-staff/ezerdaphne/">Daphne Ezer</a></p>
-<p>Complex experimental designs in sequence data</p>
+<p>Complex experimental designs in sequencing</p>
 <p><img data-src="images/daphne%20ezer.jpg"></p></td>
 <td><p><a href="https://www.york.ac.uk/biology/our-staff/katie-davis/">Katie E. Davis</a></p>
 <p>Biodiversity change in the fossil record</p>
-<p><img data-src=".png"><img data-src="images/KDavis-218.jpg"></p></td>
+<p><img data-src="images/KDavis-218.jpg"></p></td>
 <td><p><a href="https://www.york.ac.uk/biology/research/biochemistry-biophysics/james-chong/">James Chong</a></p>
 <p>Microbiomes in anaerobic digestors</p>
 <p><img data-src="images/james-chong-218x286.jpg"></p></td>
-</tr>
-<tr class="odd">
-<td></td>
-<td></td>
-<td></td>
 </tr>
 </tbody>
 </table>
 </div>
 </section>
-<section id="section-1" class="slide level2">
-<h2></h2>
+<section id="research-projects-in-biology-2" class="slide level2">
+<h2>Research Projects in Biology</h2>
+<div style="font-size: 50%;">
+<table>
+<tbody>
+<tr class="odd">
+<td><p><a href="https://www.york.ac.uk/biology/our-staff/sean-meaden/#profile-content">Sean Meaden</a></p>
+<p>Metagenomics to describe the distribution of CRISPR</p>
+<p><img data-src="images/Sean-Meaden-profile-218px.jpg"></p></td>
+<td><p><a href="https://www.york.ac.uk/biology/our-staff/dr-no%C3%A9mie-hamilton/#tab-2">Noémie Hamilton</a></p>
+<p>Therapies for leukodystrophies</p>
+<p><img data-src="images/Noamie-Hamiltion-218px.jpg"></p></td>
+<td><p><a href="https://www.york.ac.uk/biology/our-staff/masonandrew/">Andrew Mason</a></p>
+<p>Sequencing data to understand carcinogenesis and retroviruses</p>
+<p><img data-src="images/AndrewMason218.jpg"></p></td>
+</tr>
+<tr class="even">
+<td></td>
+<td><p><a href="https://www.york.ac.uk/biology/research/ecology-evolution/daniel-jeffares/">Daniel Jeffares</a></p>
+<p>Molecular epidemiology and quantitative genetics of disease-causing microbes</p>
+<p><img data-src="images/Daniel-Jeffares-218.jpg"></p></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
 <div class="footer footer-default">
 
 </div>
