@@ -214,10 +214,11 @@ Our lab has several thousand scans of seedlings.  Previously, a U-net based AI t
 **Modelling the organisation of glycan building enzymes**                 
 
 ::: {style="font-size: 70%;"}
-Glycans are the third main type of biological polymer besides proteins and DNA/RNA and is made up of sugar building blocks. In contrast to the other two classes though, glycans are synthesized without a template. We use a computational model to understand the glycan generating enzyme organisation 
+Glycans are the third main type of biological polymer besides proteins and DNA/RNA and is made up of sugar building blocks. In contrast to the other two classes though, glycans are synthesized without a template. We use a computational model to understand the glycan generating enzyme organisation from measured glycan distributions.
 :::
-from measured glycan distributions.
+
                     
 ![](images/daniel-ungar.jpg) 
 
 
+# What questions do you have?
