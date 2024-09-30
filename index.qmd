@@ -13,14 +13,18 @@ format: revealjs
     -   omics: stem cells, cancer, development, anaerobic digestion
     -   text analysis to understand scientific literature
 
--   Director of [Cloud-SPAN](https://cloud-span.york.ac.uk/) which trains researchers run 'omics analyses on cloud-based HPC
--   MSc Bioinformatics Programme lead
--   [RForwards](https://forwards.github.io/), member of core team and teaching lead
+-   Director of [Cloud-SPAN](https://cloud-span.york.ac.uk/) which
+    trains researchers run 'omics analyses on cloud-based HPC
 
+-   MSc Bioinformatics Programme lead
+
+-   [RForwards](https://forwards.github.io/), member of core team and
+    teaching lead
 
 ::: {style="font-size: 50%;"}
-ORCID: [0000-0002-1358-8275](https://orcid.org/0000-0002-1358-8275) GitHub: [3mmaRand](https://github.com/3mmaRand) twitter:  [@er13_r](https://twitter.com/er13_r) Mastodon: [@3mma@mastodon.social](https://mastodon.social/deck/@3mma)
-
+ORCID: [0000-0002-1358-8275](https://orcid.org/0000-0002-1358-8275)
+GitHub: [3mmaRand](https://github.com/3mmaRand) Mastodon:
+[\@3mma\@mastodon.social](https://mastodon.social/deck/@3mma)
 :::
 
 ## Overview
@@ -53,9 +57,11 @@ Data Science or Bioinformatics?
 
 -   Central Dogma: DNA makes RNA, and RNA makes protein
 
-![The Central Dogma](images/central-dogma.png){fig-alt="DNA is transcribed to RNA which is translated to proteins"}
+![The Central
+Dogma](images/central-dogma.png){fig-alt="DNA is transcribed to RNA which is translated to proteins"}
 
--   We can sequence DNA, RNA and protein in bulk, single cell and spatially
+-   We can sequence DNA, RNA and protein in bulk, single cell and
+    spatially
 
 ## Data Science in the biosciences
 
@@ -70,7 +76,8 @@ Typical omics workflow
 
 -   The data are files of "reads" i.e., sequences with a quality score
 
--   Text files e.g., [FASTQ format](https://en.wikipedia.org/wiki/FASTQ_format)
+-   Text files e.g., [FASTQ
+    format](https://en.wikipedia.org/wiki/FASTQ_format)
 :::
 
 ## Data Science in the biosciences
@@ -79,18 +86,21 @@ Technologies
 
 -   long reads or short reads
 
-
 ::: {style="font-size: 70%;"}
-+-----------------+---------------------------------------------------+-------------------+
-| Platform        | Read length                                       | Sequence Accuracy |
-+=================+===================================================+===================+
-| Illumina        | Short 150 - 300 bp                                | high              |
-+-----------------+---------------------------------------------------+-------------------+
-| PacBio          | Long 13,000 - 20,000 bp with a max of 300,000     | low               |
-+-----------------+---------------------------------------------------+-------------------+
-| Oxford Nanopore | Long 10,000 - 30,000 bp with a max of 2.3 million | low               |
-+-----------------+---------------------------------------------------+-------------------+
++---------------+------------------------------------+---------------+
+| Platform      | Read length                        | Sequence      |
+|               |                                    | Accuracy      |
++===============+====================================+===============+
+| Illumina      | Short 150 - 300 bp                 | high          |
++---------------+------------------------------------+---------------+
+| PacBio        | Long 13,000 - 20,000 bp with a max | low           |
+|               | of 300,000                         |               |
++---------------+------------------------------------+---------------+
+| Oxford        | Long 10,000 - 30,000 bp with a max | low           |
+| Nanopore      | of 2.3 million                     |               |
++---------------+------------------------------------+---------------+
 :::
+
 ## Typical workflow
 
 ::: incremental
@@ -104,7 +114,8 @@ Technologies
 
 -   Data visualisation: dimension reduction, clustering
 
--   Statistical analysis: differential expression/abundance, gene set enrichment
+-   Statistical analysis: differential expression/abundance, gene set
+    enrichment
 
 -   Data visualisation: Volcano plots, heatmaps, networks
 :::
@@ -115,13 +126,13 @@ Technologies
 
 -   Microscopy including live cyte, MRI, CT, PET, Satellite
 
--   Mechanistic understanding, Monitoring, diagnosis (classification), prognosis (prediction)
-
+-   Mechanistic understanding, Monitoring, classification (e.g.,
+    diagnosis) prediction (e.g., prognosis)
 
 ## Data Science in the biosciences
 
--   integrating information from a variety omics, imaging and other sources
-
+-   integrating information from a variety omics, imaging and other
+    sources
 
 ## Data Science in the biosciences
 
@@ -137,7 +148,8 @@ Technologies
 
 -   20 credits
 
--   [Group Project - BIO00069M](https://www.york.ac.uk/students/studying/manage/programmes/module-catalogue/module/BIO00069M/latest)
+-   [Group Project -
+    BIO00069M](https://www.york.ac.uk/students/studying/manage/programmes/module-catalogue/module/BIO00069M/latest)
 
 ## Bioinformatics Group Project
 
@@ -145,8 +157,10 @@ Module summary
 
 -   You will carry out a research project in a small team
 
-    -   Some work will be carried out collaboratively with other group members
-    -   while other aspects of the project will be carried out individually
+    -   Some work will be carried out collaboratively with other group
+        members
+    -   while other aspects of the project will be carried out
+        individually
 
 -   Project planning, data assembly and analysis
 
@@ -156,57 +170,54 @@ Module summary
 
 The project Ara-BOX-cis v2
 
-[Ara-BOX-cis](https://araboxcis.org/) is A G-box regulatory network for a single cell developmental atlas
+[Ara-BOX-cis](https://araboxcis.org/) is A G-box regulatory network for
+a single cell developmental atlas
 
--   Work together to produce a revised version 
+-   Work together to produce a revised version
 
--   Novel single cell RNA-seq data to identify subsets of the gene network that are relevant at different developmental stages and cell types.
-
+-   Novel single cell RNA-seq data to identify subsets of the gene
+    network that are relevant at different developmental stages and cell
+    types.
 
 ::: {style="font-size: 50%;"}
-Daphne Ezer, Samuel J.K. Shepherd, Anna Brestovitsky, Patrick Dickinson, Sandra Cortijo, Varodom Charoensawan, Mathew S. Box, Surojit Biswas, Katja E. Jaeger, Philip A. Wigge, The G-Box Transcriptional Regulatory Code in Arabidopsis, Plant Physiology, Volume 175, Issue 2, October 2017, Pages 628–640, <https://doi.org/10.1104/pp.17.01086>
+Daphne Ezer, Samuel J.K. Shepherd, Anna Brestovitsky, Patrick Dickinson,
+Sandra Cortijo, Varodom Charoensawan, Mathew S. Box, Surojit Biswas,
+Katja E. Jaeger, Philip A. Wigge, The G-Box Transcriptional Regulatory
+Code in Arabidopsis, Plant Physiology, Volume 175, Issue 2, October
+2017, Pages 628–640, <https://doi.org/10.1104/pp.17.01086>
 :::
 
 ## Bioinformatics Group Project
 
-
 [background](biology-gp-proj.pdf)
-
 
 # Research Projects in Biology
 
 ## Research Projects in Biology
 
-::: {style="font-size: 50%;"}
-+---------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------+
-| [Kanchon Dasmahapatra](https://www.york.ac.uk/biology/research/ecology-evolution/kanchon-dasmahapatra/) | [Gavin H Thomas](https://www.york.ac.uk/biology/research/biochemistry-biophysics/gavin-h-thomas/) | [Katherine Denby](https://www.york.ac.uk/biology/research/bioinformatics-biosystems/katherine-denby/) |
-|                                                                                                         |                                                                                                   |                                                                                                       |
-| Genomics for understanding speciation                                                                   | How human pathogens use the host-derived molecule sialic acid                                     | Plant-pathogen interactions using high-throughput sequencing data                                     |
-|                                                                                                         |                                                                                                   |                                                                                                       |
-| ![](images/Kanchon%20Dasmahapatra.png)                                                                  | ![](images/G_Thomas.jpg)                                                                          | ![](images/Katherine%20Denby218x218.jpg)                                                              |
-+---------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------+
-| [Daphne Ezer](https://www.york.ac.uk/biology/our-staff/ezerdaphne/)                                     | [Katie E. Davis](https://www.york.ac.uk/biology/our-staff/katie-davis/)                           | [James Chong](https://www.york.ac.uk/biology/research/biochemistry-biophysics/james-chong/)           |
-|                                                                                                         |                                                                                                   |                                                                                                       |
-| Complex experimental designs in sequencing                                                              | Biodiversity change in the fossil record                                                          | Microbiomes in anaerobic digestors                                                                    |
-|                                                                                                         |                                                                                                   |                                                                                                       |
-| ![](images/daphne%20ezer.jpg)                                                                           | ![](images/KDavis-218.jpg)                                                                        | ![](images/james-chong-218x286.jpg)                                                                   |
-+---------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------+
+
+[Daphne Ezer](https://www.york.ac.uk/biology/our-staff/ezerdaphne/) 
+                    
+**Image Analysis of Seedlings**
+
+::: {style="font-size: 70%;"}
+Our lab has several thousand scans of seedlings.  Previously, a U-net based AI tool for measuring the stem (hypocotyl) lengths was published by another lab. We want to improve the performance of the tool by training it on our data.
 :::
+                    
+![](images/daphne-ezer.jpg) 
 
 ## Research Projects in Biology
 
-::: {style="font-size: 50%;"}
-+--------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+-----------------------------------------------------------------------+
-| [Sean Meaden](https://www.york.ac.uk/biology/our-staff/sean-meaden/#profile-content) | [Noémie Hamilton](https://www.york.ac.uk/biology/our-staff/dr-no%C3%A9mie-hamilton/#tab-2)    | [Andrew Mason](https://www.york.ac.uk/biology/our-staff/masonandrew/) |
-|                                                                                      |                                                                                               |                                                                       |
-| Metagenomics to describe the distribution of CRISPR                                  | Therapies for leukodystrophies                                                                | Sequencing data to understand carcinogenesis and retroviruses         |
-|                                                                                      |                                                                                               |                                                                       |
-| ![](images/Sean-Meaden-profile-218px.jpg)                                            | ![](images/Noamie-Hamiltion-218px.jpg)                                                        | ![](images/AndrewMason218.jpg)                                        |
-+--------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+-----------------------------------------------------------------------+
-|                                                                                      | [Daniel Jeffares](https://www.york.ac.uk/biology/research/ecology-evolution/daniel-jeffares/) |                                                                       |
-|                                                                                      |                                                                                               |                                                                       |
-|                                                                                      | Molecular epidemiology and quantitative genetics of disease-causing microbes                  |                                                                       |
-|                                                                                      |                                                                                               |                                                                       |
-|                                                                                      | ![](images/Daniel-Jeffares-218.jpg)                                                           |                                                                       |
-+--------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+-----------------------------------------------------------------------+
+
+[Dani Ungar](https://www.york.ac.uk/biology/people/daniel-ungar/) 
+
+**Modelling the organisation of glycan building enzymes**                 
+
+::: {style="font-size: 70%;"}
+Glycans are the third main type of biological polymer besides proteins and DNA/RNA and is made up of sugar building blocks. In contrast to the other two classes though, glycans are synthesized without a template. We use a computational model to understand the glycan generating enzyme organisation 
 :::
+from measured glycan distributions.
+                    
+![](images/daniel-ungar.jpg) 
+
+
