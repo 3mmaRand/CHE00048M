@@ -7,11 +7,15 @@ format: revealjs
 
 ## Who am I?
 
+::: {style="font-size: 80%;"}
 -   Computational Biologist
 
     -   computational reproducibility
     -   omics: stem cells, cancer, development, anaerobic digestion
     -   text analysis to understand scientific literature
+
+-   Lead on the [UKRI Digital Research Skills
+    Catalyst](https://www.york.ac.uk/biology/about/news/2025/ukridigitalresearchskillscatalyst/)
 
 -   Director of [Cloud-SPAN](https://cloud-span.york.ac.uk/) which
     trains researchers run 'omics analyses on cloud-based HPC
@@ -20,6 +24,7 @@ format: revealjs
 
 -   [RForwards](https://forwards.github.io/), member of core team and
     teaching lead
+:::
 
 ::: {style="font-size: 50%;"}
 ORCID: [0000-0002-1358-8275](https://orcid.org/0000-0002-1358-8275)
@@ -87,18 +92,11 @@ Technologies
 -   long reads or short reads
 
 ::: {style="font-size: 70%;"}
-+---------------+------------------------------------+---------------+
-| Platform      | Read length                        | Sequence      |
-|               |                                    | Accuracy      |
-+===============+====================================+===============+
-| Illumina      | Short 150 - 300 bp                 | high          |
-+---------------+------------------------------------+---------------+
-| PacBio        | Long 13,000 - 20,000 bp with a max | low           |
-|               | of 300,000                         |               |
-+---------------+------------------------------------+---------------+
-| Oxford        | Long 10,000 - 30,000 bp with a max | low           |
-| Nanopore      | of 2.3 million                     |               |
-+---------------+------------------------------------+---------------+
+| Platform | Read length | Sequence Accuracy |
+|----|----|----|
+| Illumina | Short 150 - 300 bp | high |
+| PacBio | Long 13,000 - 20,000 bp with a max of 300,000 | low |
+| Oxford Nanopore | Long 10,000 - 30,000 bp with a max of 2.3 million | low |
 :::
 
 ## Typical workflow
@@ -195,30 +193,33 @@ Code in Arabidopsis, Plant Physiology, Volume 175, Issue 2, October
 
 ## Research Projects in Biology
 
+[Daphne Ezer](https://www.york.ac.uk/biology/our-staff/ezerdaphne/)
 
-[Daphne Ezer](https://www.york.ac.uk/biology/our-staff/ezerdaphne/) 
-                    
 **Image Analysis of Seedlings**
 
 ::: {style="font-size: 70%;"}
-Our lab has several thousand scans of seedlings.  Previously, a U-net based AI tool for measuring the stem (hypocotyl) lengths was published by another lab. We want to improve the performance of the tool by training it on our data.
+Our lab has several thousand scans of seedlings. Previously, a U-net
+based AI tool for measuring the stem (hypocotyl) lengths was published
+by another lab. We want to improve the performance of the tool by
+training it on our data.
 :::
-                    
-![](images/daphne-ezer.jpg) 
+
+![](images/daphne-ezer.jpg)
 
 ## Research Projects in Biology
 
+[Dani Ungar](https://www.york.ac.uk/biology/people/daniel-ungar/)
 
-[Dani Ungar](https://www.york.ac.uk/biology/people/daniel-ungar/) 
-
-**Modelling the organisation of glycan building enzymes**                 
+**Modelling the organisation of glycan building enzymes**
 
 ::: {style="font-size: 70%;"}
-Glycans are the third main type of biological polymer besides proteins and DNA/RNA and is made up of sugar building blocks. In contrast to the other two classes though, glycans are synthesized without a template. We use a computational model to understand the glycan generating enzyme organisation from measured glycan distributions.
+Glycans are the third main type of biological polymer besides proteins
+and DNA/RNA and is made up of sugar building blocks. In contrast to the
+other two classes though, glycans are synthesized without a template. We
+use a computational model to understand the glycan generating enzyme
+organisation from measured glycan distributions.
 :::
 
-                    
-![](images/daniel-ungar.jpg) 
-
+![](images/daniel-ungar.jpg)
 
 # What questions do you have?
